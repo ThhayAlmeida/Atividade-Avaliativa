@@ -3,8 +3,10 @@ import Login from '../componentes/compLogin';
 import Input1 from '../componentes/compLogin2';
 import Input2 from '../componentes/compLogin3';
 import Button from '../componentes/compLogin4';
+import './pageLogin.css';
+import{Link} from 'react-router-dom';
 
-function pLogin() {
+function PLogin() {
     return (
         <div className="ContainerMain">
             <div className="Container">
@@ -24,4 +26,4 @@ function pLogin() {
         </div>
     );
 }
-export default pLogin;
+export default PLogin;

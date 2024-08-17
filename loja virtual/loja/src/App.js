@@ -1,13 +1,15 @@
 import './App.css';
 import{BrowserRouter, Routes, Route} from 'react-router-dom';
-import pLogin from './pages/pageLogin';
+import PLogin from './pages/pageLogin';
+import PageHome from './pages/pageHome';
 
 function App() {
   return (
 
     <BrowserRouter>
      <Routes>
-      <Route path='/' element={<pLogin />}/>
+      <Route path='/' element={<PLogin />}/>
+      <Route path='/Home' element={<PageHome/>}></Route>
      </Routes>
     </BrowserRouter>
 
