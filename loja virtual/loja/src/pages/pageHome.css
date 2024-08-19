@@ -1,0 +1,62 @@
+#titulo{
+    text-align: center;
+    background-color: #FB5CA1;
+    color: white;
+}
+
+#lupa{
+    width: 25px;
+    height: 25px;
+}
+
+#ListaProdutos{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px gray;
+    margin: 10px;
+}
+
+#botao{
+    height: 30px;
+    width: 200px;
+}
+
+#ListaProdutos1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px gray;
+    margin-left: 10px;
+    margin: 10px;
+}
+
+#Primeiro{
+    display: flex;
+}
+
+#Segundo{
+    display: flex;  
+}
+
+#All{
+    width: 200px;
+    height: 309px;  
+}
+
+#Carrinho1{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#Carrinho{
+    display: flex;
+    float: right;
+}
+
+#log1{
+    color: black;
+}
