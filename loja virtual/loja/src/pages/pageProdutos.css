@@ -4,6 +4,10 @@
     color: white;
 }
 
+body{
+    background-color: cornsilk;
+}
+
 #ProdSelect{
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 10px;
@@ -35,6 +39,21 @@ h3{
     margin-top: 40px;
 }
 
+h4{
+    margin: 15px;
+}
+
 #botao{
-    width: 150px;
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+#botaoF{
+    width: 250;
+    margin-bottom: 15px;
+}
+
+.ProdutoCar{
+    padding-top: 80px;
+    padding-left: 10px;
 }

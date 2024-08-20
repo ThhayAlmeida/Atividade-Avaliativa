@@ -10,7 +10,7 @@ function PProdutos() {
 
             <div id='ProdSelect'>
                 <img id='All1' src={athousandbrokenpieces} className='athousandbrokenpieces' alt='athousandbrokenpieces' />
-                <div>
+                <div className='ProdutoCar'>
                     <h4>Quebrado em Mil Pedaços</h4>
                     <h4>R$79,90</h4>
                     <button id='botao'>Remover</button>
@@ -19,8 +19,8 @@ function PProdutos() {
 
             <div id='ProdSelect1'>
                 <img id='All1' src={cityofbones} className='cityofbones' alt='cityofbones' />
-                <div>
-                    <h4>Cidade dos Ossos</h4>
+                <div className='ProdutoCar'>
+                    <h4>Instrumentos Mortais: Cidade dos Ossos</h4>
                     <h4>R$53,64</h4>
                     <button id='botao'>Remover</button>
                 </div>
@@ -28,7 +28,7 @@ function PProdutos() {
 
             <h3>Total: R$ 133,54</h3>
 
-            <button id='botao'>Finalizar Compra</button>
+            <button id='botaoF'>Finalizar Compra</button>
 
         </div>
     )

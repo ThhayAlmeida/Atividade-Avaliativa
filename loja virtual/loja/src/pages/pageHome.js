@@ -39,28 +39,28 @@ function PageHome() {
 
                 <div id='ListaProdutos1'>
                     <img id='All' src={cityofbones} className='cityofbones' alt='cityofbones' />
-                    <h4>Cidade dos Ossos</h4>
+                    <h4 className='titulo'>Cidade dos Ossos</h4>
                     <h4>R$53,64</h4>
                     <button id='botao'>Comprar</button>
                 </div>
 
                 <div id='ListaProdutos1'>
                     <img id='All' src={hp1} className='hp1' alt='hp1' />
-                    <h5>Harry Pottere a Pedra Filosofal</h5>
-                    <h5>R$42,00</h5>
+                    <h4>Harry Potter e a Pedra Filosofal</h4>
+                    <h4>R$42,00</h4>
                     <button id='botao'>Comprar</button>
                 </div>
 
                 <div id='ListaProdutos1'>
                     <img id='All' src={pj1} className='pj1' alt='pj1' />
-                    <h5>Percy Jackson e o Ladrão de Raios</h5>
-                    <h5>R$44,92</h5>
+                    <h4>Percy Jackson e o Ladrão de Raios</h4>
+                    <h4>R$44,92</h4>
                     <button id='botao'>Comprar</button>
                 </div>
 
                 <div id='ListaProdutos1'>
                     <img id='All' src={the100} className='the100' alt='the100' />
-                    <h4>Os 100</h4>
+                    <h4 className='titulo'>Os 100</h4>
                     <h4>R$29,80</h4>
                     <button id='botao'>Comprar</button>
                 </div>
@@ -74,7 +74,7 @@ function PageHome() {
 
                 <div id='ListaProdutos1'>
                     <img id='All' src={twilight} className='twilight' alt='twilight' />
-                    <h4>Crepusculo</h4>
+                    <h4 className='titulo'>Crepusculo</h4>
                     <h4>R$55,90</h4>
                     <button id='botao'>Comprar</button>
                 </div>
@@ -87,15 +87,15 @@ function PageHome() {
 
                 <div id='ListaProdutos'>
                     <img src={itendswithus} className='itendswithus' alt='itendswithus' />
-                    <h4>É Assim Que Acaba</h4>
+                    <h4 className='titulo'>É Assim Que Acaba</h4>
                     <h4>R$43,37</h4>
                     <button id='botao'>Comprar</button>
                 </div>
 
                 <div id='ListaProdutos1'>
                     <img id='All' src={thingswenevergotover} className='thingswenevergotover' alt='thingswenevergotover' />
-                    <h5>As Coisas Que Nunca Superamos</h5>
-                    <h5>R$69,02</h5>
+                    <h4>As Coisas Que Nunca Superamos</h4>
+                    <h4>R$69,02</h4>
                     <button id='botao'>Comprar</button>
                 </div>
 
@@ -115,7 +115,7 @@ function PageHome() {
 
                 <div id='ListaProdutos1'>
                     <img id='All' src={maybeinanotherlife} className='maybeinanotherlife' alt='maybeinanotherlife' />
-                    <h4>Talvez em Outra Vida</h4>
+                    <h4 className='titulo'>Talvez em Outra Vida</h4>
                     <h4>R$39,90</h4>
                     <button id='botao'>Comprar</button>
                 </div>

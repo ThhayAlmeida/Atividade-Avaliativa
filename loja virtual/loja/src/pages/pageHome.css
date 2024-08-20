@@ -4,6 +4,10 @@
     color: white;
 }
 
+body{
+    background-color: cornsilk;
+}
+
 #lupa{
     width: 25px;
     height: 25px;
@@ -39,6 +43,7 @@
 
 #Segundo{
     display: flex;  
+    margin-bottom: 15px;
 }
 
 #All{
@@ -59,4 +64,8 @@
 
 #log1{
     color: black;
+}
+
+.titulo{
+    margin-bottom: 32px;
 }
